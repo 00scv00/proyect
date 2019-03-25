@@ -1,16 +1,18 @@
-* {margin:0px; padding:0px; font-family:Tahoma,Geneva,sans-serif;}
-header {background:#069; color:#FFF; text-align:right; height:70px;}
+* {margin:0px; padding:0px; font-family:Cambria, HoeflerText, LiberationSerif, Times, Times New Roman, serifGeneva,sans-serif;}
+body {background:white;}
+header {background-image: url(descarga.jpg); color:#FFF; text-align:center; height:100px; position: inherit;}
 h1 {
 	font-size: 30px;
+	position: inherit;
+	float: none;
 }
-#imgHD {position:absolute; height:inherit; width:20%; top:0px;}
-nav {height:100%;}
-#menu {background:#069; text-align:left; list-style:none; width:20%; padding-top:5px;}
+nav {height:1000px;}
+#menu {background:#3D0060; text-align:left; list-style:none; width:20%; padding-top:5px;}
 .lisMen {color:#FFF; padding:7px;}
-li:hover {background:#333; font-size:22px; font-weight:bold;}
+li:hover {background:black; font-size:19px; font-weight:bold;}
 a {text-decoration:none;}
-div {width:80%; float:right; margin-top:20px;}
+div {width:70%; float:right; margin:5%; margin-top: 30px;}
 h2 {padding-left:15px; font-family:Tahoma,Geneva,sans-serif; color:#333;}
 p {text-align:justify; padding: 10px; color:#333;}
-.capital {float:left; color:black; background:white; border:1px solid #999999; font-size:40px; line-height:30px; padding:2px; font-family:times; margin-right: 5px;}
-footer {background:#333; color:white; text-align:right; padding-bottom:10px; padding-top:10px; position:absolute; bottom:0; width:100%;}
+.capital {float:left; color:black; background:white; border:0px solid #999999; font-size:40px; line-height:30px; padding:2px; font-family:times; margin-right: 5px;}
+footer {background:#333; color:white; text-align:right; padding-bottom:10px; padding-top:10px; position:static; bottom:0; width:100%;}
